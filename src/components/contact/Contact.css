@@ -1,0 +1,10 @@
+.form {
+    width: 350px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: wheat;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(61, 49, 125, 0.19);
+    display: flex;
+    flex-direction: column;
+}
