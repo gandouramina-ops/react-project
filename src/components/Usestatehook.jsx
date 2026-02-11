@@ -4,6 +4,9 @@
 // chaque composant peut avoir plusieurs state pas uniquement un seul
 // useState est un hook qui permet de stocker l'état d'un composant en local
 
+//useEffect : utilisé quand on fait appel à l'api, interraction avec le dom, 
+// useEffect : son role est de gérer le rendu du composant (side effect) 
+
 import React, { useState } from "react";
 
 const Usestatehook = () => {

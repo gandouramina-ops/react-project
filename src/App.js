@@ -1,6 +1,7 @@
 import "./App.css";
 import { About } from "./components/about/About";
 import Contact from "./components/contact/Contact";
+import Effect from "./components/Effect";
 import Exoprops from "./components/Exoprops";
 import ExoState from "./components/ExoState";
 import Home from "./components/Home";
@@ -18,6 +19,7 @@ function App() {
       <Exoprops moduleA={10} moduleB={12} />
       <Usestatehook />
       <ExoState />
+      <Effect />
     </div>
   );
 }
