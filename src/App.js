@@ -2,6 +2,8 @@ import "./App.css";
 import { About } from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Effect from "./components/Effect";
+import EffectWithCLeanUpFct from "./components/EffectWithCLeanUpFct";
+import EffectWithParams from "./components/EffectWithParams";
 import Exoprops from "./components/Exoprops";
 import ExoState from "./components/ExoState";
 import Home from "./components/Home";
@@ -20,6 +22,8 @@ function App() {
       <Usestatehook />
       <ExoState />
       <Effect />
+      <EffectWithParams />
+      <EffectWithCLeanUpFct />
     </div>
   );
 }
